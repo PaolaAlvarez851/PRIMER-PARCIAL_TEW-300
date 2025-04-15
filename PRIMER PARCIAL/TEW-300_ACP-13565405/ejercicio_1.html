@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Ejercicio 1</title>
+</head>
+<body>
+    <h2>Formulario</h2>
+    <form action="#" method="post">
+        <label for="documento">Tipo Documento:</label>
+        <select id="documento" name="documento">
+            <option value="ci">Cédula Identidad</option>
+            <option value="pasaporte">Pasaporte</option>
+            <option value="otro">Otro</option>
+        </select>
+        <br><br>
+
+        <label for="nombres">Nombres:</label>
+        <input type="text" id="nombres" name="nombres">
+        <br><br>
+
+        <label for="apellidos">Apellidos:</label>
+        <input type="text" id="apellidos" name="apellidos">
+        <br><br>
+
+        <label>Género:</label>
+        <input type="radio" id="masculino" name="genero" value="masculino">
+        <label for="masculino">Masculino</label>
+        <input type="radio" id="femenino" name="genero" value="femenino">
+        <label for="femenino">Femenino</label>
+        <br><br>
+
+        <label for="descripcion">Descripción:</label><br>
+        <textarea id="descripcion" name="descripcion" rows="4" cols="40">Tecnología Web I.</textarea>
+        <br><br>
+
+        <input type="submit" value="Cargar Información">
+    </form>
+</body>
+</html>

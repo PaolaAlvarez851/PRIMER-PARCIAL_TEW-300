@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Ejercicio 3</title>
+    <style>
+        table, th, td {
+            border: 1px solid black;
+            border-collapse: collapse;
+            text-align: center;
+            padding: 5px;
+        }
+        .tew { background-color: #D9D9D9; }
+        .sim { background-color: #93C47D; }
+        .elt { background-color: #EAD1DC; }
+        .elg { background-color: #B6D7A8; }
+        .prg { background-color: #E06666; }
+        .bdd { background-color: #FFFF00; }
+    </style>
+</head>
+<body>
+    <table>
+        <caption><strong>Ejercicio 3</strong></caption>
+        <tr>
+            <th>Per.</th>
+            <th>Hrs.</th>
+            <th>LUNES</th>
+            <th>MARTES</th>
+            <th>MIERCOLES</th>
+            <th>JUEVES</th>
+            <th>VIERNES</th>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>08:00 - 08:45</td>
+            <td rowspan="2" class="tew">TEW-300</td>
+            <td rowspan="2" class="sim">SIM-300</td>
+            <td rowspan="2" class="elt">ELT-300</td>
+            <td rowspan="2" class="elg">ELG-300</td>
+            <td rowspan="2" class="prg">PRG-300</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>08:45 - 09:30</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>09:30 - 10:15</td>
+            <td class="tew">TEW-300</td>
+            <td class="sim">SIM-300</td>
+            <td class="elt">ELT-300</td>
+            <td class="elg">ELG-300</td>
+            <td class="prg">PRG-300</td>
+        </tr>
+        <tr>
+            <td>4</td>
+            <td>10:15 - 11:00</td>
+            <td colspan="5">DESCANSO</td>
+        </tr>
+        <tr>
+            <td>5</td>
+            <td>11:30 - 12:15</td>
+            <td class="bdd">BDD-300</td>
+            <td class="sim">SIM-300</td>
+            <td class="elt">ELT-300</td>
+            <td class="elg">ELG-300</td>
+            <td class="prg">PRG-300</td>
+        </tr>
+        <tr>
+            <td>6</td>
+            <td>12:15 - 13:00</td>
+            <td colspan="5"></td>
+        </tr>
+    </table>
+</body>
+</html>
